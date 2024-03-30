@@ -1,2 +1,3 @@
-# Demo_AnimalShelter
-School assignment using whatever subject we wanted. I decided to make it be a mock animal shelter website.
+# 🐾 Animal Shelter 🐾
+
+This was for a solo school project.  It was up to each of us to decide whatever subject matter we wished for our website.  I decided to create a mock website for an animal shelter.
