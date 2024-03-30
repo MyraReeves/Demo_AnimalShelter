@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Intake form</title>
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Animal Shelter Intake Form</h1>
+            <p><strong>Please fill out all areas of this form!  Thank you!</strong></p><br/>
+
+            <label for="kennel">Kennel #</label>
+            <input type="number" id="kennel" required>
+
+            <br/><br/>
+
+            <label for="name">Name (if known)</label>
+            <input type="name" id="breed">
+
+            <br/><br/>
+
+            <label for="species">Species</label>
+            <input type="text" id="species" required>
+
+            <label for="breed">Breed</label>
+            <input type="text" id="breed" required>
+            
+            <br/><br/>
+
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Unknown</option>
+            </select>
+
+            <br/><br/>
+
+            Estimated age:
+            <input type="radio" id="juvenile" name="age">
+            <label for="juvenile">Juvenile</label>
+            <input type="radio" id="adult" name="age">
+            <label for="adult">Adult</label>
+
+            <br/><br/>
+
+            <label for="description">Please provide a brief description of coat/feather coloration, pattern, etc.</label><br/>
+            <textarea id="description" rows="4" cols="50" placeholder="Enter description here" required></textarea>
+
+            <br/><br/>
+
+            Is this animal currently up-to-date on all vaccinations?
+            <input type="radio" id="vaccinationsYes" name="options">
+            <label for="vaccinationsYes">Yes</label>
+            <input type="radio" id="vaccinationsNo" name="options">
+            <label for="vaccinationsNo">No</label>
+            <input type="radio" id="vaccinationsUnknown" name="options">
+            <label for="vaccinationsUnknown">Unknown</label>
+
+
+            <br/><br/>
+
+            <label for="history">Any important information about this animal's previous history?</label><br/>
+            <textarea id="history" rows="4" cols="50" placeholder="Enter description here" required></textarea>
+
+            <br/><br/><br/>
+
+            Based on its breed & previous history, what would it be safe to place this individual in a new home alongside of? <br/>
+            <em>Check all that apply:</em> <br/>
+            <input type="checkbox" id="goodWith1" name="compatibilityList">
+            <label for="goodWith1">Dogs</label>
+            <input type="checkbox" id="goodWith2" name="compatibilityList">
+            <label for="goodWith2">Cats</label>
+            <input type="checkbox" id="goodWith3" name="compatibilityList">
+            <label for="goodWith3">Birds</label>
+            <input type="checkbox" id="goodWith4" name="compatibilityList">
+            <label for="goodWith4">Children</label>
+            <input type="checkbox" id="goodWith5" name="compatibilityList">
+            <label for="goodWith5">First time owner</label>
+            <input type="checkbox" id="goodWith6" name="compatibilityList">
+            <label for="goodWith6">None of these options</label>
+            <input type="checkbox" id="goodWith7" name="compatibilityList">
+            <label for="goodWith7">Unknown History</label>
+
+            <br/><br/><br/>
+
+            <button type="submit">Submit</button>
+
+            <br/><br/><br/><br/><br/>
+
+            <button type="button" disabled>Disabled for now: <br/> Click here for additional intake forms.</button>
+
+        </form>
+
+        <br/>
+    </main>
+    
+</body>
+</html>
