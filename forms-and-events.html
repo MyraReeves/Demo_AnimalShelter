@@ -13,15 +13,15 @@
 
     <main>
         <h2>Add a Cat</h2>
-        <form id="addKittenForm">
+        <form id="addCatForm">
             <fieldset>
                 <legend>Basic Information</legend>
 
-                <label for="kitten-name">Name:</label>
-                <input type="text" name="kitten-name"/>
+                <label for="catName">Name:</label>
+                <input type="text" name="catName"/>
 
-                <label>Interests</label>
-                <input type="text" name="interests"/>
+                <label for="catInterests">Interests:</label>
+                <input type="text" name="catInterests"/>
                 <span>List interests separated by commas</span>
             </fieldset>
 
@@ -45,16 +45,23 @@
         </form>
 
 
+        <h2>Cats Available for Adoption:</h2>
+        <div id="kittenProfiles">
+
+        </div>
+
+
+
         <h2>Add a Dog</h2>
-        <form id="addKittenForm">
+        <form id="addDogForm">
             <fieldset>
                 <legend>Basic Information</legend>
 
-                <label>Name:</label>
-                <input type="text" name="name"/>
+                <label for="dogName">Name:</label>
+                <input type="text" name="dogName"/>
 
-                <label>Interests</label>
-                <input type="text" name="interests"/>
+                <label for="dogInterests">Interests</label>
+                <input type="text" name="dogInterests"/>
                 <span>List interests separated by commas</span>
             </fieldset>
 
@@ -76,6 +83,11 @@
 
             <button type="submit">Submit</button>
         </form>
+
+        <h2>Dogs Available for Adoption:</h2>
+        <div id="kittenProfiles">
+
+        </div>
     </main>
     
 </body>
