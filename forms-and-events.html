@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+
+    <header>
+        <h1>Practicing with forms</h1>
+    </header>
+
+    <main>
+        <h2>Add a Cat</h2>
+        <form id="addKittenForm">
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <label for="kitten-name">Name:</label>
+                <input type="text" name="kitten-name"/>
+
+                <label>Interests</label>
+                <input type="text" name="interests"/>
+                <span>List interests separated by commas</span>
+            </fieldset>
+
+            <fieldset>
+                <legend>Placement Details</legend>
+
+                <p>Can be placed with...</p>
+                <label>
+                    <input type="checkbox" name="isGoodWithKids">Kids
+                </label>
+                <label>
+                    <input type="checkbox" name="isGoodWithDogs">Dogs
+                </label>
+                <label>
+                    <input type="checkbox" name="isGoodWithCats">Other Cats
+                </label>
+
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+
+
+        <h2>Add a Dog</h2>
+        <form id="addKittenForm">
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <label>Name:</label>
+                <input type="text" name="name"/>
+
+                <label>Interests</label>
+                <input type="text" name="interests"/>
+                <span>List interests separated by commas</span>
+            </fieldset>
+
+            <fieldset>
+                <legend>Placement Details</legend>
+
+                <p>Can be placed with...</p>
+                <label>
+                    <input type="checkbox" name="isGoodWithKids">Kids
+                </label>
+                <label>
+                    <input type="checkbox" name="isGoodWithDogs">Other Dogs
+                </label>
+                <label>
+                    <input type="checkbox" name="isGoodWithCats">Cats
+                </label>
+
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    
+</body>
+</html>
